@@ -1,3 +1,7 @@
+body {
+	/* background-image: url("../images/nbajam.png"); */
+}
+
 #button-div {
 	margin-left: 20px;
 }
@@ -9,8 +13,28 @@
 .jumbotron {
 	font-size: 80px;
 	text-align: center;
+	background-color: gold;
+	border-bottom: 5px solid dimgray;
 }
 
 #addNBAPlayer {
 	margin-top: 10px;
+}
+
+.btn-dark {
+	background-color: black;
+	color: white;
+}
+
+#bigDiv {
+	border: 5px solid whitesmoke;
+	float: left;
+	margin: 15px;
+	padding: 20px;
+	background-color: thistle;
+}
+
+#instruction {
+	color: white;
+	font-size: 16px;
 }

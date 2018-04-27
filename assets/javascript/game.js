@@ -19,7 +19,7 @@ function renderButtons() {
 		var a = $("<button>");
 
 		//add a class
-		a.addClass("basketball-button btn btn-primary");
+		a.addClass("basketball-button btn btn-default btn-lg");
 
 		//add data-attribute with the value of the player at index i
 		a.attr("data-player", playerInput[i]);
@@ -100,8 +100,9 @@ $.ajax({
 
 		
 		$("#NBA-gifs-here").append(playerDiv);
+		
 	}
-
+	
 		//on click to animate the gif
 	$(".gif").on("click", function() {
 
@@ -121,7 +122,7 @@ $.ajax({
 		}
 
 	})
-
+	// $("#NBA-gifs-here").attr("id", "bigDiv");
 });
 
 
